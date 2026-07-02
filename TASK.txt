@@ -46,3 +46,9 @@ TASK-9
 2)db.employee.find({name:{$in["ABC", "PQR", "XYZ"]}}).sort({name:-1})
 
 3)db.employee.find({age:{$gte:25,$lte:50}},{age:1,_id:0})
+
+
+
+
+npm i mongoose
+npm i validator
